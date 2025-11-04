@@ -56,12 +56,13 @@
             margin-right: 10px;
             font-weight: bold;
         }
-        .data-section {
+        .email-template {
             background: #fff3cd;
             border: 1px solid #ffeaa7;
             border-radius: 5px;
             padding: 20px;
             margin: 20px 0;
+            font-family: monospace;
         }
         .warning {
             background: #f8d7da;
@@ -90,6 +91,15 @@
             text-align: center;
             margin-bottom: 30px;
         }
+        .email-address {
+            background: #e9ecef;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-family: monospace;
+            font-size: 1.1em;
+            margin: 10px 0;
+            display: inline-block;
+        }
     </style>
 </head>
 <body>
@@ -103,54 +113,92 @@
             <p><strong>Disponible sur :</strong> Google Play Store et Apple App Store</p>
         </div>
 
-        <h2>🗑️ Comment Demander la Suppression de Votre Compte</h2>
+        <h2>📧 Demande de Suppression par Courriel</h2>
         
-        <p>Chez <strong>StorySound</strong>, nous respectons votre droit à la suppression de vos données. Voici la procédure simple pour demander la suppression définitive de votre compte et de toutes vos données associées.</p>
+        <p>Chez <strong>StorySound</strong>, vous pouvez demander la suppression de votre compte et de toutes vos données personnelles en nous contactant directement par courriel. Cette procédure garantit la sécurité de vos données et nous permet de vérifier votre identité.</p>
 
         <div class="step">
             <span class="step-number">1</span>
-            <strong>Ouvrez l'application StorySound</strong>
-            <p>Lancez l'application sur votre appareil mobile et assurez-vous d'être connecté à votre compte.</p>
+            <strong>Envoyez-nous un courriel</strong>
+            <p>Écrivez-nous à l'adresse suivante :</p>
+            <div class="email-address">privacy@storysound.com</div>
+            <p><strong>Objet :</strong> "Demande de suppression de compte - [Votre nom d'utilisateur]"</p>
         </div>
 
         <div class="step">
             <span class="step-number">2</span>
-            <strong>Accédez aux Paramètres</strong>
-            <p>Dans l'application, appuyez sur l'icône de profil en haut à droite, puis sélectionnez "Paramètres".</p>
+            <strong>Incluez les informations requises</strong>
+            <p>Dans votre courriel, veuillez fournir :</p>
+            <ul>
+                <li>Votre nom complet</li>
+                <li>L'adresse email associée à votre compte StorySound</li>
+                <li>Votre nom d'utilisateur (si différent de l'email)</li>
+                <li>La phrase "Je confirme ma demande de suppression définitive de mon compte StorySound"</li>
+            </ul>
         </div>
 
         <div class="step">
             <span class="step-number">3</span>
-            <strong>Section "Compte et Confidentialité"</strong>
-            <p>Faites défiler jusqu'à la section "Compte et Confidentialité" et appuyez sur "Gérer mon compte".</p>
+            <strong>Modèle de courriel recommandé</strong>
+            <div class="email-template">
+                <p>Objet: Demande de suppression de compte - [Votre nom d'utilisateur]</p>
+                <br>
+                <p>À l'attention de l'équipe de protection des données StorySound,</p>
+                <br>
+                <p>Je souhaite exercer mon droit à l'effacement de mes données personnelles conformément au RGPD.</p>
+                <br>
+                <p><strong>Informations de compte :</strong></p>
+                <p>• Nom complet : [Votre nom complet]</p>
+                <p>• Email du compte : [votre.email@example.com]</p>
+                <p>• Nom d'utilisateur : [Votre nom d'utilisateur]</p>
+                <br>
+                <p><strong>Confirmation :</strong> Je confirme ma demande de suppression définitive de mon compte StorySound et de toutes les données personnelles associées.</p>
+                <br>
+                <p>Cordialement,</p>
+                <p>[Votre nom]</p>
+            </div>
         </div>
 
         <div class="step">
             <span class="step-number">4</span>
-            <strong>Demande de Suppression</strong>
-            <p>Sélectionnez "Supprimer mon compte" et confirmez votre choix. Vous recevrez un email de confirmation.</p>
+            <strong>Confirmation de réception</strong>
+            <p>Vous recevrez un accusé de réception automatique dans les <strong>24 heures</strong> suivant l'envoi de votre demande.</p>
         </div>
 
         <div class="step">
             <span class="step-number">5</span>
-            <strong>Confirmation par Email</strong>
-            <p>Ouvrez l'email de confirmation et cliquez sur le lien pour finaliser la suppression. Cette étape est obligatoire pour des raisons de sécurité.</p>
+            <strong>Vérification d'identité</strong>
+            <p>Pour des raisons de sécurité, nous pouvons vous demander des informations supplémentaires pour vérifier votre identité avant de procéder à la suppression.</p>
+        </div>
+
+        <div class="step">
+            <span class="step-number">6</span>
+            <strong>Confirmation de suppression</strong>
+            <p>Une fois la suppression effectuée, vous recevrez un courriel de confirmation définitif.</p>
         </div>
 
         <div class="warning">
-            <strong>⚠️ Attention : Action Irréversible</strong>
-            <p>La suppression de votre compte est définitive. Vous perdrez l'accès à :</p>
+            <strong>⚠️ Important : Sécurité des Données</strong>
+            <p>La procédure par courriel nous permet de :</p>
             <ul>
-                <li>Votre historique d'écoute</li>
-                <li>Vos favoris et listes de lecture</li>
-                <li>Votre progression dans les histoires</li>
-                <li>Toutes vos données personnelles</li>
+                <li>Vérifier l'identité du demandeur</li>
+                <li>Éviter les suppressions frauduleuses</li>
+                <li>Garder une trace écrite de la demande</li>
+                <li>Respecter nos obligations légales en matière de preuve</li>
             </ul>
         </div>
 
+        <h2>⏱️ Délais de Traitement</h2>
+        <ul>
+            <li><strong>Accusé de réception :</strong> Sous 24 heures</li>
+            <li><strong>Traitement de la demande :</strong> Sous 72 heures</li>
+            <li><strong>Suppression complète :</strong> Sous 30 jours maximum</li>
+            <li><strong>Confirmation finale :</strong> Courriel envoyé une fois la suppression effectuée</li>
+        </ul>
+
         <h2>📊 Données Supprimées et Conservées</h2>
 
-        <div class="data-section">
+        <div class="highlight">
             <h3>🎯 Données Immédiatement Supprimées</h3>
             <ul>
                 <li><strong>Informations de compte :</strong> Nom, email, photo de profil</li>
@@ -159,38 +207,29 @@
                 <li><strong>Données d'utilisation :</strong> Statistiques personnelles, métriques</li>
                 <li><strong>Tokens d'authentification :</strong> Sessions Google OAuth</li>
             </ul>
-
-            <h3>⏳ Délai de Suppression</h3>
-            <p>La suppression complète intervient sous <strong>30 jours maximum</strong> après confirmation.</p>
         </div>
 
-        <div class="data-section">
-            <h3>📈 Données Conservées (Anonymisées)</h3>
-            <p>Conformément à nos obligations légales, certaines données peuvent être conservées sous forme anonyme :</p>
+        <div class="highlight">
+            <h3>📈 Données Conservées (Anonymisées ou Légales)</h3>
+            <p>Conformément à nos obligations légales :</p>
             <ul>
-                <li><strong>Données analytiques agrégées :</strong> Métriques d'usage général (sans identification personnelle)</li>
+                <li><strong>Preuve de la demande :</strong> Votre courriel de demande (conservé 3 ans)</li>
+                <li><strong>Données analytiques agrégées :</strong> Métriques d'usage général anonymisées</li>
                 <li><strong>Enregistrements de facturation :</strong> Pour les achats intégrés (conservés 10 ans)</li>
                 <li><strong>Logs système :</strong> Données techniques anonymisées (conservées 12 mois)</li>
             </ul>
         </div>
 
-        <h2>⏱️ Durées de Conservation</h2>
-        <ul>
-            <li><strong>Données de compte :</strong> Supprimées sous 30 jours</li>
-            <li><strong>Backups système :</strong> Supprimés sous 90 jours</li>
-            <li><strong>Données anonymisées :</strong> Conservées indéfiniment pour analyses</li>
-            <li><strong>Enregistrements légaux :</strong> Conservés selon exigences légales</li>
-        </ul>
-
         <div class="contact-info">
-            <h2>📧 Contact et Support</h2>
-            <p>Si vous rencontrez des difficultés ou avez des questions concernant la suppression de votre compte :</p>
+            <h2>📞 Contact Alternative</h2>
+            <p>Si vous ne pouvez pas envoyer de courriel, vous pouvez également :</p>
             <ul>
-                <li><strong>Email :</strong> privacy@storysound.com</li>
-                <li><strong>Support technique :</strong> support@storysound.com</li>
-                <li><strong>Délai de réponse :</strong> Sous 72 heures</li>
+                <li><strong>Formulaire en ligne :</strong> Disponible dans l'application StorySound</li>
+                <li><strong>Support technique :</strong> support@storysound.com (pour assistance)</li>
             </ul>
-            <p>Notre équipe dédiée à la protection des données vous assistera dans le processus.</p>
+            <p><strong>Adresse postale (si nécessaire) :</strong><br>
+            Joe App Developer - Service Protection des Données<br>
+            [Votre adresse]</p>
         </div>
 
         <div class="highlight">
@@ -202,7 +241,7 @@
         </div>
 
         <p style="text-align: center; margin-top: 30px; color: #666;">
-            StorySound - Données personnelles respectées
+            StorySound - Votre vie privée, notre priorité
         </p>
     </div>
 </body>
